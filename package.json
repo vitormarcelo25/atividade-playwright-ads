@@ -1,0 +1,19 @@
+{
+  "name": "atividade-playwright-ads",
+  "version": "1.0.0",
+  "description": "Automacao de testes com Playwright - Teste e Qualidade de Software",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "report": "playwright show-report",
+    "evidencias": "node scripts/salvar-evidencias.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.11"
+  }
+}
